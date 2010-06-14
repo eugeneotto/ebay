@@ -6,8 +6,8 @@ class EbayMappingTest < Test::Unit::TestCase
   include Ebay::Responses
 
 	def setup
-		@ebay_time = GeteBayOfficialTime.load_from_file(response_file_path('official_time_success'))
-	  @valid = VerifyAddItem.load_from_file(response_file_path('verify_add_item'))
+    @ebay_time = GeteBayOfficialTime.load_from_file(response_file_path('official_time_success'))
+    @valid = VerifyAddItem.load_from_file(response_file_path('verify_add_item'))
   end
 
 	def test_reference
