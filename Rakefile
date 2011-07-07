@@ -5,9 +5,12 @@ require 'rake/testtask'
 require 'rake/rdoctask'
 require 'rake/gempackagetask'
 require 'rake/contrib/rubyforgepublisher'
+gem 'activesupport'
+gem 'libxml-ruby'
+require 'xml'
 
-PKG_VERSION = "0.12.0"
-PKG_NAME = "ebayapi"
+PKG_VERSION = "0.12.2"
+PKG_NAME = "jkaneacumen-ebayapi"
 PKG_FILE_NAME = "#{PKG_NAME}-#{PKG_VERSION}"
 
 PKG_FILES = FileList[

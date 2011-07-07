@@ -1,3 +1,5 @@
+== Version 0.12.1 (July 7, 2011)
+* Correct use_ssl to use_ssl? for Ruby 1.9.x
 * Still return the stylesheet in XslFile even when the regex doesn't match
 * Update to schema version 653
 * Update to schema version 637
