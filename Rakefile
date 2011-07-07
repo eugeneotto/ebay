@@ -9,7 +9,7 @@ gem 'activesupport'
 gem 'libxml-ruby'
 require 'xml'
 
-PKG_VERSION = "0.12.1"
+PKG_VERSION = "0.12.2"
 PKG_NAME = "jkaneacumen-ebayapi"
 PKG_FILE_NAME = "#{PKG_NAME}-#{PKG_VERSION}"
 
